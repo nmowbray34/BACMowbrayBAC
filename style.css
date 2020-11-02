@@ -1,0 +1,46 @@
+.container, #submit, #clear {
+    display: block;
+    width: 400px;
+    margin: 100px auto 0;
+}
+
+h1, h2, h3, p, #result {
+    text-align: center;
+    font-family: helvetica, sans-serif;
+}
+
+
+p{
+    font-size: 18px;
+    font-family: helvetica, sans-serif;
+}
+
+input {
+    font-size: 18px;
+    line-height: 14px;
+    height: 14px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 6px;
+    font-family: helvetica, sans-serif;
+    color: #888;
+}
+
+#submit, #clear {
+    border-radius: 12px;
+    outline-style: none;
+    outline-color: none;
+    padding: 5px;
+    margin: 3px;
+}
+
+#submit {
+    background-color: green;
+    color: white;
+}
+
+#clear {
+    background-color: red;
+    color: white;
+}
